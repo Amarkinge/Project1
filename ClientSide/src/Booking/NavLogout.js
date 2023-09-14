@@ -1,0 +1,26 @@
+import React from 'react'
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import './../Components/Style/navLog.css';
+import { Navigate, useNavigate,Link } from "react-router-dom"
+
+const NavLogout = () => {
+const navigate = useNavigate();
+  return (
+    <>
+  <nav id="admin-page-nav-container-my-nav">
+  <div id="logo-of-the-rental-car-app">
+    <img src="https:data:image/jpeg;base64,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" />
+    <span id="name-of-the-app-rental-car-app">Bus Rental Serrvice</span>
+</div>
+<div>
+<Link to="/Existbookings" ><button id="logout-admin-page-butn-admin"  >My booking</button></Link>
+<Link to = "/"><button id="logout-admin-page-butn-admin" onClick={()=>localStorage.clear()} >Logout</button></Link>
+</div>
+</nav>
+ </>
+  )
+}
+
+export default NavLogout;
