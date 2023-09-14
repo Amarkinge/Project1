@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "w9yz3QlOQW8Mmv27LcYVfpxbIuVMSZRweLhaq+E2ik0=",
+  "Source": "BusRentalService",
+  "BasePath": "_content/BusRentalService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
